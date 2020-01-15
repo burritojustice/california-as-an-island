@@ -1,0 +1,52 @@
+<!doctype html>
+<!--
+    Tangram: real-time WebGL rendering for OpenStreetMap
+    http://github.com/tangrams/tangram
+    http://mapzen.com
+-->
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://avatars2.githubusercontent.com/u/3979711?s=32&v=4" rel="icon" type="image/x-icon" />   
+    <title>California as an island</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+
+    <style>
+        body {
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+
+    <!-- leaflet -->
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+
+    <!-- Main tangram library -->
+    <script src="https://unpkg.com/tangram/dist/tangram.min.js"></script>
+
+    <!-- Demo setup -->
+    <script>
+        var map = L.map('map',{maxZoom: 7});
+	var bounds = [[19,-136],[51,-56]];
+// 	map.setMaxBounds(bounds);
+        var tangramLayer = Tangram.leafletLayer({
+            scene: 'scene.yaml'        
+            });
+        tangramLayer.addTo(map);
+	map.fitBounds(bounds);
+  map.maxZoom
+//         map.setView([37,-100], 5); 
+    </script>
+
+  </body>
+</html>
