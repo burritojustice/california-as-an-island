@@ -1,0 +1,243 @@
+import:
+    - https://tangrams.github.io/blocks/functions/aastep.yaml
+    - https://tangrams.github.io/blocks/functions/pulse.yaml
+    - https://tangrams.github.io/blocks/patterns/stripes.yaml
+    - https://tangrams.github.io/blocks/space/screen.yaml
+global:
+    sdk_api_key: DpCrhQqsR2igQPEINRTfcw
+    api_key: DpCrhQqsR2igQPEINRTfcw
+    
+sources:
+    mapzen:
+        type: MVT
+        url: https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.mvt
+        url_params:
+            api_key: global.api_key
+
+    wof_mask:
+        type: GeoJSON
+        url: https://xyz.api.here.com/hub/spaces/LdmvFlzZ/tile/web/{z}_{x}_{y}
+        url_params:
+            access_token: AFopW1giI0M4jNmflsU9fn8
+            clip: true
+            # tags: oregon
+            # p.wof:name: Oregon,California,Nevada,'Baja California',Sonora,Sinaloa
+            p.statoids:hasc: MX.BN,MX.BS,US.CA,US.OR,US.NV,MX.SI,MX.SO,US.AZ
+        
+    california_wof:
+        type: GeoJSON
+        url: https://whosonfirst.mapzen.com/data/856/886/37/85688637.geojson
+    california_1672:
+        type: GeoJSON
+        url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
+    california_1672_raster:
+        type: Raster
+        url: https://mapwarper.net/maps/tile/44894/{z}/{x}/{y}.png
+scene:
+    background:
+        color: white
+    
+
+cameras:
+    cam:
+        type: perspective
+        # vanishing_point: [0, -500]
+
+lights:
+    dir:
+        type: directional
+        direction: [.1, .5, -1]
+        diffuse: .7
+        ambient: .5
+
+
+layers:
+
+    california_island:
+        # enabled: false
+        data: {source: california_1672}
+        island:
+            # enabled: false
+            draw:
+                polygons:
+                    order: 1000
+                    color: darkgray
+                # text:
+                #     collide: false
+                #     font:
+                #         fill: black
+                #         size: 12px
+        coasts:
+            filter: {kind: coast}
+            draw:
+                text:
+                    # collide: false
+                    font:
+                        style: italic
+                        fill: black
+                        size: 12px
+                        stroke:
+                            color: white
+                            width: 3px
+                
+        places:
+            # enabled: false
+            filter:
+                kind: place
+                not:
+                    name: St. Francisco
+            draw:
+                points:
+                    color: black
+                    size: 6px
+                    text:
+                        # collide: false
+                        font:
+                            fill: black
+                            size: 12px
+                            stroke:
+                                color: white
+                                width: 3px
+    
+
+            
+                # width: 2px
+            # lines:
+            #     color: [1,0,0]
+            #     order: 1000
+            #     width: 2px
+                
+    water_mask:
+        # enabled: false
+        # data: {source: linework_times-approximate_admin_1_polygons}
+        # data: {source: california_1672}
+        # data: {source: california_wof}
+        data: {source: wof_mask}
+
+        # filter: {name: California}
+        draw:
+            lines:
+                order: 100
+                color: white
+                width: 155px
+        draw:
+            waves:
+                order: 202
+                cap: round
+                width: 8px
+                color: [0,0,1,.5]
+                width: 5px
+                
+    water:
+        data: { source: mapzen }
+        draw:
+            waves:
+                order: 101
+                cap: round
+                width: 8px
+                color: [0,0,1,.5]
+                width: 5px
+    earth:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                order: 99
+
+                color: darkgray
+                width: 2px
+    roads:
+        filter:
+            kind_detail: motorway
+            none:
+                - id: [54,3777,3771,3779,3780,1230,1232,1234,1235,1244,1241,1359,1271,995,994,964,2236,2237,2748,3745,2140,3884,3883]
+                - shield_text: [15D,'15','95','40','8']
+                
+        data: { source: mapzen }
+        draw:
+            lines:
+                color: grey
+                order: 11000
+                width: 2px
+
+    ca_island_outline:
+        enabled: false
+        data: {source: california_1672}
+        isla_california:
+            # filter: {name: Isla California}
+            draw:
+
+                lines:
+                    color: [1,0,0]
+                    order: 1002
+                    width: 2px
+                    
+    california_island_raster:
+        enabled: false
+        data: {source: california_1672_raster}
+        draw:
+            raster:
+                order: 1001 # draw on bottom                
+                
+    landuse:
+        enabled: false
+        data: { source: mapzen }
+        draw:
+            hatch:
+                order: 2000
+                color: '#464C40'
+
+styles:
+    states:
+        base: polygons
+        mix: [landuse]
+    
+    pallete:
+        shaders:
+            blocks:
+                global: |
+                    // Common Values
+                    //================================
+                    float radio = 0.05;
+                    vec2 size = vec2(1.,.6);
+                    vec3 background = vec3(1.);
+                    vec3 midle = vec3(0.824, 0.812, 0.804);
+                    vec3 foreground = vec3(0.275,0.298,0.251);
+    border:
+        base: lines
+        mix: [functions-pulse, functions-aastep, pallete]
+        texcoords: true
+        shaders:
+            blocks:
+                color: |
+                    vec2 st = v_texcoord.xy;
+                    float pattern = aastep(.5,pulse(st.x,.7,.1)+pulse(st.x,.35,.25));
+                    color.rgb = mix(background,color.rgb,pattern);
+    b_border:
+        base: lines
+        mix: [functions-pulse, functions-aastep, pallete]
+        texcoords: true
+        shaders:
+            blocks:
+                color: |
+                    vec2 st = v_texcoord.xy;
+                    float pattern = aastep(.5,pulse(st.x,.5,.2));
+                    color.rgb = mix(background,color.rgb,pattern);
+
+    waves:
+        base: polygons
+        mix: [space-screen, pallete, patterns-stripes]
+        shaders:
+            blocks:
+                color: |
+                    vec2 pos = getScreenNonStretchCoords();
+                    pos.y += sin(pos.x*70.)*.01;
+                    color.rgb = mix(color.rgb,background,stripes(pos*40.,.2));
+    hatch:
+        base: polygons
+        mix: [functions-aastep, pallete, patterns-stripes, space-screen]
+        shaders:
+            blocks:
+                color: |
+                    vec2 st = getScreenNonStretchCoords();
+                    color.rgb = mix(color.rgb,background,diagonalStripes(st*300.));
+
