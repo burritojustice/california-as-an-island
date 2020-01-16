@@ -16,7 +16,7 @@ https://searchworks.stanford.edu/view/zw996zy2690
 
 https://searchworks.stanford.edu/view/nm595xv6478
 
-But the Spanish started second guessing themselves in the early 1600s. What seems most likely is that the Spanish _wanted_ California to be an island, because it meant that any claim by Sir Francis Drake, who probably landed in California in 1579 (but completely missed San Francisco Bay thanks to Karl the Fog), any English claims to "New Albion" were invalid. 
+But the Spanish started second guessing themselves in the early 1600s. What seems most likely is that the Spanish _wanted_ California to be an island, because it meant that any claims by the English to "New Albion" via Sir Francis Drake, who cruised by California in 1579 (yet completely missed San Francisco Bay thanks to Karl the Fog), were invalid. 
 
 When Juan de Oñate, the Spanish governor of New Mexico came down the Colorado River in 1605, he and his friends though they saw the Gulf of Mexico extending up to the northwest. Also, garbled stories of Juan de Fuca and the straight he discovered in 1592 (aka Vancouver Island) may given people the idea of a northern passage. And the myth thanks to that romance novel was strong. 
 
