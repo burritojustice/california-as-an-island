@@ -18,9 +18,9 @@ https://searchworks.stanford.edu/view/nm595xv6478
 
 But the Spanish started second guessing themselves in the early 1600s. What seems most likely is that the Spanish _wanted_ California to be an island, because it meant that any claims by the English to "New Albion" via Sir Francis Drake, who cruised by California in 1579 (yet completely missed San Francisco Bay thanks to Karl the Fog), were invalid. 
 
-When Juan de Oñate, the Spanish governor of New Mexico came down the Colorado River in 1605, he and his friends though they saw the Gulf of Mexico extending up to the northwest. Also, garbled stories of Juan de Fuca and the straight he discovered in 1592 (aka Vancouver Island) may given people the idea of a northern passage. And the myth thanks to that romance novel was strong. 
+When Juan de Oñate, the Spanish governor of New Mexico came down the Colorado River in 1605, he and his friends "thought they saw" the Gulf of Mexico continuing up to the northwest. Also, garbled stories of Juan de Fuca and the straight he discovered in 1592 (aka Vancouver Island) may given people the idea of a northern passage. And the myth thanks to that romance novel was strong. 
 
-Here's the first known map of California as an island in 1622, published in Holland.
+Anyway, here's the first known map of California as an island in 1622, published in Holland.
 
 ![first California island map](1622%20California%20as%20an%20island%20Colijn.png)
 
@@ -78,8 +78,9 @@ California started appearing as a peninsula on more maps after Kino. This [Frenc
 
 There's an entire collection of California as an island maps over at the [Stanford Library](https://searchworks.stanford.edu/view/zb871zd0767). 
 
+ANYWAY
 
-I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [this Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. And for fun I added the existing road network.
+I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [that Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. And for fun I added the existing road network.
 
 ![California as an island via Tangram](california%20as%20an%20island.png)
 
