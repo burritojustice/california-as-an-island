@@ -44,9 +44,9 @@ Not to be outdone, [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/w
 
 ![1601 California as a peninsula via Herrera](1601%20California%20as%20a%20peninsula%20Herrera.jpg)
 
-Published a map of California as an island in a reprint of his book in 1622, via Colijn.
+...published a map of California as an island in a reprint of his book in 1622, via Colijn.
 
-![California as an island Herra 1622](1622%20California%20as%20an%20island%20Herrera.png)
+![California as an island Herrera 1622](1622%20California%20as%20an%20Island%20Herrara.png)
 
 Here's a Dutch map from 1672:
 
