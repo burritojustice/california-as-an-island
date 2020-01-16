@@ -50,7 +50,7 @@ Signs that this got out of hand include [Antonio de Herrera y Tordesillas](https
 
 https://searchworks.stanford.edu/view/hf530hv9225
 
-Here's a Dutch map from 1672:
+Here's [a Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0):
 
 ![California as an island 1672](https://github.com/burritojustice/california-as-an-island/blob/master/california%20as%20an%20island%201672%20Vinckeboons.png)
 
