@@ -8,7 +8,7 @@ Herman Moll once said, "Of course California is an Island. I have had in this of
 
 I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [this Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. And for fun I added the existing road network.
 
-![California as an island](california as an island.png)
+![California as an island](california%20as%20an%20island.png)
 
 
 
