@@ -1,6 +1,6 @@
 # California as an Island
 
-For a while, people thought California was an island thanks to Garci Rodríguez de Montalvo and his 1510 romance novel, "Las sergas de Esplandián". 
+For a while, people thought California was an island. The name came from Garci Rodríguez de Montalvo and his 1510 romance novel, "Las sergas de Esplandián". 
 
 _Know, that on the right hand of the Indies there is an island called California very close to the side of the Terrestrial Paradise; and it is peopled by black women, without any man among them, for they live in the manner of Amazons._
 
@@ -16,7 +16,7 @@ https://searchworks.stanford.edu/view/zw996zy2690
 
 https://searchworks.stanford.edu/view/nm595xv6478
 
-But the Spanish started second guessing themselves in the early 1600s. What seems most likely is that the Spanish _wanted_ California to be an island, because it meant that any claims by the English to "New Albion" via Sir Francis Drake, who cruised by California in 1579 (yet completely missed San Francisco Bay thanks to Karl the Fog), were invalid. 
+But the Spanish started second guessing themselves in the early 1600s. Either that, or what seems most likely is that the Spanish _wanted_ California to be an island, because it meant that any claims by the English to "New Albion" via Sir Francis Drake, who cruised by California in 1579 (yet completely missed San Francisco Bay thanks to Karl the Fog), were invalid. 
 
 When Juan de Oñate, the Spanish governor of New Mexico came down the Colorado River in 1605, he and his friends "thought they saw" the Gulf of Mexico continuing up to the northwest. Also, garbled stories of Juan de Fuca and the straight he discovered in 1592 (aka Vancouver Island) may given people the idea of a northern passage. And the myth thanks to that romance novel was strong. 
 
@@ -38,13 +38,11 @@ It has a pretty awesome inscription.
 
 https://searchworks.stanford.edu/view/9917574
 
-This implies there were secret Spanish maps with California as an island floating around (like, literally, taken from captured ships) which makes you wonder if this was a giant disinformation game being played by Spain to invalidate Sir Francis Drake...
-
-Not to be outdone, [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/wiki/Antonio_de_Herrera_y_Tordesillas), a Spanish historian who published a history of Americas in 1601 with this map of California as a peninsula...
+(This implies there were secret Spanish maps with California as an island floating around (like, literally, taken from captured ships) which does makes you wonder if this was a giant disinformation game being played by Spain to invalidate Sir Francis Drake. Signs that this got out of hand include [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/wiki/Antonio_de_Herrera_y_Tordesillas), a Spanish historian. He published a history of Americas in 1601 with this map of California as a peninsula...
 
 ![1601 California as a peninsula via Herrera](1601%20California%20as%20a%20peninsula%20Herrera.jpg)
 
-...published a map of California as an island in a reprint of his book in 1622, via Colijn.
+...but then included a map of California as an island in a reprint of his book in 1622, via Colijn.
 
 ![California as an island Herrera 1622](1622%20California%20as%20an%20Island%20Herrara.png)
 
@@ -62,7 +60,7 @@ Moll once said, "Of course California is an Island. I have had in this office ma
 
 More here: https://www.geographicus.com/P/AntiqueMap/NorthAmerica-moll-1701
 
-Eusabio Kino, a Jesuit missionary, [who even drew a map of California was an island](https://en.wikipedia.org/wiki/Eusebio_Kino#/media/File:California_or_New_Carolina_Place_of_Apostolic_Works_of_Society_of_Jesus_at_the_Septentrional_America.tif), walked around and figured out that it was not an island and made another map.
+Eusabio Kino, a Jesuit missionary, [who even drew a map of California was an island](https://en.wikipedia.org/wiki/Eusebio_Kino#/media/File:California_or_New_Carolina_Place_of_Apostolic_Works_of_Society_of_Jesus_at_the_Septentrional_America.tif), but by sailing and walking around he figured out that it was not an island but a peninsula and made another map.
 
 ![1701 Kino](1701-1720%20California%20as%20a%20peninsula%20Kino.png)
 
@@ -72,7 +70,7 @@ Moll [never seems to have published a map of California as a peninsula](https://
 
 ![Moll island-not-island](1711%20moll%20island-not-island.png)
 
-California started appearing as a peninsula on more maps after Kino. This [French map from 1770](https://searchworks.stanford.edu/view/dw578ct6502) is great as it shows how California was depicted in other maps in 1604,1656,1700, 17-5 and 1767 the years (basically a much more efficient version of this post).
+California started appearing as a peninsula on more maps after Kino. This [French map from 1770](https://searchworks.stanford.edu/view/dw578ct6502) is great as it shows how California was depicted in other maps in 1604, 1656, 1700, 1705 and 1767 the years (basically a much more efficient version of this post).
 
 ![comparison map](1770%20French%20comparison%20of%20California%20maps.jpg)
 
