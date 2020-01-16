@@ -27,6 +27,7 @@ sources:
     california_wof:
         type: GeoJSON
         url: https://whosonfirst.mapzen.com/data/856/886/37/85688637.geojson
+        
     california_1672:
         type: GeoJSON
         url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
@@ -35,7 +36,7 @@ sources:
         url: https://mapwarper.net/maps/tile/44894/{z}/{x}/{y}.png
 scene:
     background:
-        color: white
+        color: black
     
 
 cameras:
@@ -61,14 +62,16 @@ layers:
             draw:
                 polygons:
                     order: 1000
-                    color: darkgray
+                    color: white
                 # text:
                 #     collide: false
                 #     font:
                 #         fill: black
                 #         size: 12px
         coasts:
-            filter: {kind: coast}
+            filter: 
+                kind: coast
+                $zoom: {min: 5}
             draw:
                 text:
                     # collide: false
@@ -83,6 +86,7 @@ layers:
         places:
             # enabled: false
             filter:
+                $zoom: {min: 6}
                 kind: place
                 not:
                     name: St. Francisco
@@ -94,19 +98,27 @@ layers:
                         # collide: false
                         font:
                             fill: black
-                            size: 12px
+                            size: 11px
                             stroke:
                                 color: white
                                 width: 3px
-    
+                            weight: bold
+        country:
+            filter: 
+                kind: country
+                $zoom: {min: 2, max: 5}
+            draw:
+                text:
+                    # collide: false
+                    font:
+                        # style: italic
+                        fill: black
+                        size: 14px
+                        stroke:
+                            color: white
+                            width: 4px
+                        weight: bold
 
-            
-                # width: 2px
-            # lines:
-            #     color: [1,0,0]
-            #     order: 1000
-            #     width: 2px
-                
     water_mask:
         # enabled: false
         # data: {source: linework_times-approximate_admin_1_polygons}
@@ -119,13 +131,13 @@ layers:
             lines:
                 order: 100
                 color: white
-                width: 155px
+                width: 115px
         draw:
             waves:
                 order: 202
                 cap: round
                 width: 8px
-                color: [0,0,1,.5]
+                color: [0.4,0.4,0.4,.5]
                 width: 5px
                 
     water:
@@ -135,7 +147,7 @@ layers:
                 order: 101
                 cap: round
                 width: 8px
-                color: [0,0,1,.5]
+                color: [0.4,0.4,0.4,.5]
                 width: 5px
     earth:
         data: { source: mapzen }
@@ -143,7 +155,7 @@ layers:
             polygons:
                 order: 99
 
-                color: darkgray
+                color: white
                 width: 2px
     roads:
         filter:
@@ -157,7 +169,158 @@ layers:
             lines:
                 color: grey
                 order: 11000
-                width: 2px
+                width: 1.5px
+
+    boundaries:
+        # enabled: false
+        data: { source: mapzen}
+        filter: { maritime_boundary: false }
+        draw:
+            lines:
+                visible: false
+                order: 100
+                width: 1.5px
+                color: lightgrey
+                dash: [1, 1, 3, 1]
+
+        country:
+            filter: { kind: country }
+            draw:
+                lines:
+                    visible: true
+                    color: grey
+
+        region:
+            enabled: false
+            filter: { kind: [region, macroregion] }
+            draw: { lines: { visible: true } }
+
+        labels:
+            enabled: false
+            filter: { kind: [region, macroregion, country] }
+            draw:
+                text:
+                    interactive: true
+                    text_source: global.language_text_source
+                    font:
+                        family: Montserrat
+                        transform: uppercase
+                        fill: black
+
+            # dual-sided border labels where available
+            dual:
+                enabled: false
+                filter: { 'name:left': true, 'name:right': true }
+                draw:
+                    text:
+                        priority: 1
+                        offset: [0, 2px]
+                        text_source:
+                            left: global.language_text_source_left
+                            right: global.language_text_source_right
+
+    places:
+        data: { source: mapzen }
+        filter: 
+            not: 
+                name: [San Jose,Los Angeles, San Diego, Tijuana]
+        # city labels with points
+        city-points:
+            filter:
+                kind: locality
+                kind_detail: city
+                population: {min: 100000}
+                $zoom: { max: 11 }
+            draw:
+                points:
+                    size: 8px
+                    color: darkred
+                    text:
+                        text_source: global.language_text_source
+                        priority: 1
+                        font:
+                            family: Helvetica
+                            fill: [0, 0, 0, .8]
+                            stroke: { color: white, width: 4 }
+                            # transform: uppercase
+                            weight: bold
+                            size: [[8, 11px], [12, 16px]]
+                            buffer: 2px
+
+        # places w/text-only labels (not accompanying point)
+        text-only:
+            draw:
+                text:
+                    visible: false
+                    text_source: global.language_text_source
+                    priority: 1
+                    font:
+                        family: Helvetica
+                        size: 12px
+                        fill: [0, 0, 0, .8]
+                        stroke: { color: white, width: 4 }
+                        # transform: uppercase
+
+            countries:
+                filter:
+                    kind: country
+                    any:
+                        - { population: { min: 100000000 } }
+                        - { $zoom: { min: 5, max: 8 }, population: { min: 1000000 } }
+                draw:
+                    text:
+                        visible: true
+                        buffer: 2px
+                        font:
+                            weight: bold
+                            size: [[6, 14px], [8, 20px]]
+
+            regions:
+                filter:
+                    kind: region
+                    kind_detail: [state, province]
+                    $zoom: { min: 5, max: 9 }
+                    not: 
+                        'name:short': [AZ,NV,UT,OR]
+                draw:
+                    text:
+                        visible: true
+                        buffer: 2px
+                        font:
+                            size: [[6, 14px], [8, 16px]]
+
+                # use short name when available at low-zooms
+                short:
+                    filter: { $zoom: { max: 7 } }
+                    draw:
+                        text:
+                            text_source: 'name:short'
+
+            cities:
+                filter:
+                    kind: locality
+                    kind_detail: city
+                    $zoom: { min: 11 } # show city point labels below z11
+                draw:
+                    text:
+                        visible: true
+                        font:
+                            weight: bold
+                            size: [[8, 11px], [12, 16px]]
+                            buffer: 2px
+
+            neighborhoods:
+                filter:
+                    - { kind: [neighbourhood, macrohood], $zoom: { min: 13 } }
+                    - { kind: microhood, $zoom: { min: 15 } }
+                draw:
+                    text:
+                        visible: true
+                        font:
+                            size: [[13, 11px], [14, 11px], [15, 13px]]
+                            style: italic
+                            fill: rgba(136, 45, 23, 0.9)
+
 
     ca_island_outline:
         enabled: false
@@ -199,7 +362,7 @@ styles:
                     //================================
                     float radio = 0.05;
                     vec2 size = vec2(1.,.6);
-                    vec3 background = vec3(1.);
+                    vec3 background = vec3(0.5, 0.5, 0.5);
                     vec3 midle = vec3(0.824, 0.812, 0.804);
                     vec3 foreground = vec3(0.275,0.298,0.251);
     border:
@@ -230,7 +393,7 @@ styles:
             blocks:
                 color: |
                     vec2 pos = getScreenNonStretchCoords();
-                    pos.y += sin(pos.x*70.)*.01;
+                    pos.y += sin(pos.x*62.)*.009;
                     color.rgb = mix(color.rgb,background,stripes(pos*40.,.2));
     hatch:
         base: polygons
