@@ -38,7 +38,9 @@ It has a pretty awesome inscription.
 
 https://searchworks.stanford.edu/view/9917574
 
-(This implies there were secret Spanish maps with California as an island floating around (like, literally, taken from captured ships) which does makes you wonder if this was a giant disinformation game being played by Spain to invalidate Sir Francis Drake. Signs that this got out of hand include [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/wiki/Antonio_de_Herrera_y_Tordesillas), a Spanish historian. He published a history of Americas in 1601 with this map of California as a peninsula...
+This implies there were secret Spanish maps with California as an island floating around (like, literally, taken from captured ships) which does makes you wonder if this was all a giant disinformation game being played by Spain to invalidate Sir Francis Drake. 
+
+Signs that this got out of hand include [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/wiki/Antonio_de_Herrera_y_Tordesillas), a Spanish historian. He published a history of Americas in 1601 with this map of California as a peninsula...
 
 ![1601 California as a peninsula via Herrera](1601%20California%20as%20a%20peninsula%20Herrera.jpg)
 
