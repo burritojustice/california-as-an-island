@@ -1,8 +1,9 @@
 # California as an Island
 
-For a while, people thought California was an island. The Spanish figured out the Baja Peninsula by the 1500s, but the British and Dutch copied old Spanish maps and insisted it was an island until the 1700s.
+For a while, people thought California was an island. The Spanish figured out the Baja Peninsula by the late 1500s, but the British and Dutch copied old Spanish maps and insisted it was an island until the 1700s.
 
-https://www.geographicus.com/P/AntiqueMap/NorthAmerica-moll-1701
+More here: https://www.geographicus.com/P/AntiqueMap/NorthAmerica-moll-1701
+
 
 Herman Moll once said, "Of course California is an Island. I have had in this office mariners who have sailed round it."
 
