@@ -26,7 +26,7 @@ Here's the first known map of California as an island in 1622, published in Holl
 
 https://searchworks.stanford.edu/view/hf530hv9225
 
-Maps were often state secrets, and it seems that the [Dutch ~stole~ copied old Spanish maps](https://searchworks.stanford.edu/view/9917574) and the British ~stole~ copied those, and insisted it was an island until the 1700s. Here's an inscription on a British 1625 map showing California as an island.
+Maps were often state secrets, and it seems that the [Dutch ~stole~ copied old Spanish maps](https://searchworks.stanford.edu/view/9917574) and the British ~stole~ copied those, and insisted it was an island until the 1700s. This map published in London in 1625 showing California as an island has a pretty awesome inscription.
 
 ![hollanders stealing maps](california%20as%20an%20island%20map%20stolen%20by%20hollanders%201625.png)
 
