@@ -48,6 +48,8 @@ Not to be outdone, [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/w
 
 ![California as an island Herrera 1622](1622%20California%20as%20an%20Island%20Herrara.png)
 
+https://searchworks.stanford.edu/view/hf530hv9225
+
 Here's a Dutch map from 1672:
 
 ![California as an island 1672](https://github.com/burritojustice/california-as-an-island/blob/master/california%20as%20an%20island%201672%20Vinckeboons.png)
@@ -60,7 +62,21 @@ Moll once said, "Of course California is an Island. I have had in this office ma
 
 More here: https://www.geographicus.com/P/AntiqueMap/NorthAmerica-moll-1701
 
-There's an entire collection of California as an island maps over at the [Stanford Library](https://searchworks.stanford.edu/view/zb871zd0767).
+Eusabio Kino, a Jesuit missionary, [who even drew a map of California was an island](https://en.wikipedia.org/wiki/Eusebio_Kino#/media/File:California_or_New_Carolina_Place_of_Apostolic_Works_of_Society_of_Jesus_at_the_Septentrional_America.tif), walked around and figured out that it was not an island and made another map.
+
+![1701 Kino](1701-1720%20California%20as%20a%20peninsula%20Kino.png)
+
+https://searchworks.stanford.edu/view/9949302
+
+Moll [never seems to have published a map of California as a peninsula](https://searchworks.stanford.edu/?f%5Bauthor_person_facet%5D%5B%5D=Moll%2C+Herman%2C+-1732&f%5Bcollection%5D%5B%5D=zb871zd0767&per_page=20&sort=year-asc), but you can see some [creative map layout by 1711](https://searchworks.stanford.edu/view/hj428gg7611) that avoided showing the top of the island, and adding the "Gulf of California".
+
+![Moll island-not-island](1711%20moll%20island-not-island.png)
+
+California started appearing as a peninsula on more maps after Kino. This [French map from 1770](https://searchworks.stanford.edu/view/dw578ct6502) is great as it shows how California was depicted in other maps in 1604,1656,1700, 17-5 and 1767 the years (basically a much more efficient version of this post).
+
+![comparison map](1770%20French%20comparison%20of%20California%20maps.jpg)
+
+There's an entire collection of California as an island maps over at the [Stanford Library](https://searchworks.stanford.edu/view/zb871zd0767). 
 
 
 I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [this Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. And for fun I added the existing road network.
