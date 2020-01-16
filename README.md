@@ -22,7 +22,7 @@ When Juan de Oñate, the Spanish governor of New Mexico came down the Colorado R
 
 Here's the first known map of California as an island in 1622, published in Holland.
 
-![first California island map](California%20as%20an%20Island%20Herrara%2C%20Colijin%201622.png)
+![first California island map](1622%20California%20as%20an%20island%20Colijn.png)
 
 https://searchworks.stanford.edu/view/hf530hv9225
 
@@ -40,9 +40,13 @@ https://searchworks.stanford.edu/view/9917574
 
 This implies there were secret Spanish maps with California as an island floating around (like, literally, taken from captured ships) which makes you wonder if this was a giant disinformation game being played by Spain to invalidate Sir Francis Drake...
 
-One confusing thing about that Dutch from 1622 is that it references [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/wiki/Antonio_de_Herrera_y_Tordesillas), a Spanish historian who publbshed a history of Americas in 1601 with this map of California as a peninsula...
+Not to be outdone, [Antonio de Herrera y Tordesillas](https://en.wikipedia.org/wiki/Antonio_de_Herrera_y_Tordesillas), a Spanish historian who published a history of Americas in 1601 with this map of California as a peninsula...
 
 ![1601 California as a peninsula via Herrera](1601%20California%20as%20a%20peninsula%20Herrera.jpg)
+
+Published a map of California as an island in a reprint of his book in 1622, via Colijn.
+
+![California as an island Herra 1622](1622%20California%20as%20an%20island%20Herrera.png)
 
 Here's a Dutch map from 1672:
 
