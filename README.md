@@ -8,7 +8,7 @@ Here's a Dutch map from 1672:
 
 And a British map from 1700 by Herman Moll:
 
-![Moll California 1701](California Moll 1701.png)
+![Moll California 1701](California%20Moll%201701.png)
 
 Moll once said, "Of course California is an Island. I have had in this office mariners who have sailed round it."
 
