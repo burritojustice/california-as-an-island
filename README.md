@@ -84,6 +84,10 @@ I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [that Dutch m
 
 ![California as an island via Tangram](california%20as%20an%20island.png)
 
+Here's a link to a slippy map, have fun.
+
+https://burritojustice.github.io/california-as-an-island/
+
 
 
 
