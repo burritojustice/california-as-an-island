@@ -30,7 +30,12 @@ sources:
         
     california_1672:
         type: GeoJSON
-        url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
+        #url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
+        url: https://xyz.api.here.com/hub/spaces/bgR9NZnE/tile/web/{z}_{x}_{y}
+        url_params:
+            access_token: AFopW1giI0M4jNmflsU9fn8
+            clip: true
+
     california_1672_raster:
         type: Raster
         url: https://mapwarper.net/maps/tile/44894/{z}/{x}/{y}.png
@@ -137,7 +142,7 @@ layers:
                 order: 202
                 cap: round
                 width: 8px
-                color: [0.4,0.4,0.4,.5]
+                color: [0.47,0.47,0.47,.5]
                 width: 5px
                 
     water:
@@ -147,7 +152,7 @@ layers:
                 order: 101
                 cap: round
                 width: 8px
-                color: [0.4,0.4,0.4,.5]
+                color: [0.47,0.47,0.47,.5]
                 width: 5px
     earth:
         data: { source: mapzen }
@@ -170,6 +175,9 @@ layers:
                 color: grey
                 order: 11000
                 width: 1.5px
+                outline:
+                    color: white
+                    width: .5px
 
     boundaries:
         # enabled: false
@@ -281,7 +289,7 @@ layers:
                     kind_detail: [state, province]
                     $zoom: { min: 5, max: 9 }
                     not: 
-                        'name:short': [AZ,NV,UT,OR]
+                        'name:short': [AZ,NV,OR]
                 draw:
                     text:
                         visible: true
