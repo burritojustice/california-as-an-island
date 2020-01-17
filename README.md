@@ -1,10 +1,12 @@
 # California as an Island
 
-For a while, people thought California was an island. The name came from Garci Rodríguez de Montalvo and his 1510 romance novel, "Las sergas de Esplandián". 
+For a while, people thought California was an island. Then they didn't. Then they did again. Then they didn't.
+
+The name California came from Garci Rodríguez de Montalvo and his 1510 romance novel, "Las sergas de Esplandián". 
 
 _Know, that on the right hand of the Indies there is an island called California very close to the side of the Terrestrial Paradise; and it is peopled by black women, without any man among them, for they live in the manner of Amazons._
 
-The Spanish ran into Baja California in 1533, and by sailing and walking around they figured out it was a peninsula by 1539 (thanks to Cortes, and Ulloa, who found the mouth of the Colorado river). This world map was published in Spain in 1552 and got it (and most of the world) pretty much right! Good work, [Francisco López de Gómara the cartographer](https://searchworks.stanford.edu/view/zw996zy2690)!
+The Spanish ran into Baja California in 1533, and by sailing and walking around they figured out it was a peninsula in 1539 (thanks to Cortes, and Ulloa, who found the mouth of the Colorado river). This world map was published in Spain in 1552 and got it (and most of the world) pretty much right! Good work, [Francisco López de Gómara the cartographer](https://searchworks.stanford.edu/view/zw996zy2690)!
 
 ![California Peninsula 1552](California%20peninsula%20--%20López%20de%20Gómara%2C%20Francisco%20ca.%201552.png)
 
@@ -76,11 +78,13 @@ California started appearing as a peninsula on more maps after Kino. This [Frenc
 
 ![comparison map](1770%20French%20comparison%20of%20California%20maps.jpg)
 
-There's an entire collection of California as an island maps over at the [Stanford Library](https://searchworks.stanford.edu/view/zb871zd0767). 
+There's an entire collection of California as an island maps over at the [Stanford Library](https://searchworks.stanford.edu/view/zb871zd0767) and a nice article about the collection in [Business Insider](https://www.businessinsider.com/people-used-to-think-california-was-an-island-2012-8).
 
-ANYWAY
+Anyway I made a map of California as an island too.
 
 I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [that Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. And for fun I added the existing road network.
+
+Sorry Nevada and Oregon.
 
 ![California as an island via Tangram](california%20as%20an%20island.png)
 
