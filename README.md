@@ -60,11 +60,22 @@ And a British map from 1700 by Herman Moll:
 
 ![Moll California 1701](California%20Moll%201701.png)
 
-Moll once said, "Of course California is an Island. I have had in this office mariners who have sailed round it."
+Moll once said, *"Of course California is an Island. I have had in this office mariners who have sailed round it."*
 
 More here: https://www.geographicus.com/P/AntiqueMap/NorthAmerica-moll-1701
 
-Eusabio Kino, a Jesuit missionary, [who even drew a map of California was an island](https://en.wikipedia.org/wiki/Eusebio_Kino#/media/File:California_or_New_Carolina_Place_of_Apostolic_Works_of_Society_of_Jesus_at_the_Septentrional_America.tif), but by sailing and walking around he figured out that it was not an island but a peninsula and made another map.
+So when did Europeans figure out California was not an island? It looks like some folks had their doubts in the late 17th century. While these Venetian maps from 1680 and 1697 shows California as an island, they have a cartouche describing the debate. I don't speak Italian, but Ulloa and 1539 and Cabrillo are mentioned.
+
+![1697 Venitian](1697%20california%20debate%20cartouche.png)
+
+https://searchworks.stanford.edu/view/9803004
+https://searchworks.stanford.edu/view/zm373fj7922
+
+Bomus: That map is part of a gore, those curved strips you can cut out and make into a globe. There are a couple of those in the collection and they are highly theraputic to print and cut out.
+
+https://searchworks.stanford.edu/?f%5Bcollection%5D%5B%5D=zb871zd0767&q=gore&utf8=%E2%9C%93
+
+Eusabio Kino, a Jesuit missionary, [who even drew a map of California was an island](https://en.wikipedia.org/wiki/Eusebio_Kino#/media/File:California_or_New_Carolina_Place_of_Apostolic_Works_of_Society_of_Jesus_at_the_Septentrional_America.tif), but by sailing and walking around he figured out that it was not an island but a peninsula and by 1701 made another map.
 
 ![1701 Kino](1701-1720%20California%20as%20a%20peninsula%20Kino.png)
 
