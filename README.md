@@ -71,7 +71,7 @@ So when did Europeans figure out California was not an island? It looks like som
 https://searchworks.stanford.edu/view/9803004
 https://searchworks.stanford.edu/view/zm373fj7922
 
-Bomus: That map is part of a gore, those curved strips you can cut out and make into a globe. There are a couple of those in the collection and they are highly theraputic to print and cut out.
+Bonus: That map is part of a gore, those curved strips you can cut out and make into a globe. There are a couple of those in the collection and they are highly theraputic to print and cut out.
 
 https://searchworks.stanford.edu/?f%5Bcollection%5D%5B%5D=zb871zd0767&q=gore&utf8=%E2%9C%93
 
@@ -99,10 +99,9 @@ Sorry Nevada and Oregon.
 
 ![California as an island via Tangram](california%20as%20an%20island.png)
 
-Here's a link to a slippy map, have fun.
+Here's a link to a slippy map, have fun. It shows the "original" Isla California map place names at lower zoom levels, but it shows the "modern" road network and "current" place names as you zoom in. The bridges! Las Vegas! OMG
 
 https://burritojustice.github.io/california-as-an-island/
-
 
 
 
