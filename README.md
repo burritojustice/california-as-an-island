@@ -93,13 +93,13 @@ There's an entire collection of California as an island maps over at the [Stanfo
 
 Anyway I made a map of California as an island too.
 
-I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [that Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. And for fun I added the existing road network.
+I [used Mapwarper](https://mapwarper.net/maps/44894) to georectify [that Dutch map published by Vinckeboons in 1672](https://loc.gov/resource/g3291s.mf000074/?r=0.107,0.062,0.954,0.502,0) to get the coast to line up, and took some liberties with masking the new coastline to the east of California. I added coastal features, along with what I assume are ports. 
 
 Sorry Nevada and Oregon.
 
 ![California as an island via Tangram](california%20as%20an%20island.png)
 
-Here's a link to a slippy map, have fun. It shows the "original" Isla California map place names at lower zoom levels, but it shows the "modern" road network and "current" place names as you zoom in. The bridges! Las Vegas! OMG
+Here's a link to a slippy map, have fun. It shows the "original" Isla California map place names at lower zoom levels thanks to tangram.js and some unnatural manipulation of GeoJSON and vector tiles. For fun I added the "modern" road network and "current" place names as you zoom in. The long bridges! Las Vegas! OMG
 
 https://burritojustice.github.io/california-as-an-island/
 
