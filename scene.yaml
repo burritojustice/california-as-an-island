@@ -30,11 +30,11 @@ sources:
         
     california_1672:
         type: GeoJSON
-        #url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
-        url: https://xyz.api.here.com/hub/spaces/bgR9NZnE/tile/web/{z}_{x}_{y}
-        url_params:
-            access_token: AFopW1giI0M4jNmflsU9fn8
-            clip: true
+        url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
+        # url: https://xyz.api.here.com/hub/spaces/bgR9NZnE/tile/web/{z}_{x}_{y}
+        # url_params:
+        #     access_token: AFopW1giI0M4jNmflsU9fn8
+        #     clip: true
 
     california_1672_raster:
         type: Raster
