@@ -16,21 +16,22 @@ sources:
 
     wof_mask:
         type: GeoJSON
-        url: https://xyz.api.here.com/hub/spaces/LdmvFlzZ/tile/web/{z}_{x}_{y}
-        url_params:
-            access_token: AFopW1giI0M4jNmflsU9fn8
-            clip: true
-            # tags: oregon
-            # p.wof:name: Oregon,California,Nevada,'Baja California',Sonora,Sinaloa
-            p.statoids:hasc: MX.BN,MX.BS,US.CA,US.OR,US.NV,MX.SI,MX.SO,US.AZ
+        url: wof_mask.geojson
+        # url: https://xyz.api.here.com/hub/spaces/LdmvFlzZ/tile/web/{z}_{x}_{y}
+        # url_params:
+        #     access_token: AFopW1giI0M4jNmflsU9fn8
+        #     clip: true
+        #     # tags: oregon
+        #     # p.wof:name: Oregon,California,Nevada,'Baja California',Sonora,Sinaloa
+        #     p.statoids:hasc: MX.BN,MX.BS,US.CA,US.OR,US.NV,MX.SI,MX.SO,US.AZ
         
-    california_wof:
-        type: GeoJSON
-        url: https://whosonfirst.mapzen.com/data/856/886/37/85688637.geojson
+    # california_wof:
+    #     type: GeoJSON
+    #     url: https://whosonfirst.mapzen.com/data/856/886/37/85688637.geojson
         
     california_1672:
         type: GeoJSON
-        url: https://gist.githubusercontent.com/burritojustice/5c031e134424cbdaadfcdeead6d3cb4c/raw/map.geojson
+        url: map.geojson
         # url: https://xyz.api.here.com/hub/spaces/bgR9NZnE/tile/web/{z}_{x}_{y}
         # url_params:
         #     access_token: AFopW1giI0M4jNmflsU9fn8
